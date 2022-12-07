@@ -1,0 +1,303 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'ru' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/selykov/Football1
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60812
+Successfully changed project path to: C:/Users/selykov/Football1
+C:/Users/selykov/Football1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 86.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/selykov/Football1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   30.0.15021.11005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004181 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (500ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005731 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\selykov\Football1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\selykov\Football1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.228 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1229ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (971ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (321ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3511 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (184.5 KB). Loaded Objects now: 3967.
+Memory consumption went from 121.2 MB to 121.0 MB.
+Total: 3.382900 ms (FindLiveObjects: 0.286900 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.883700 ms  DeleteObjects: 0.123000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23643.697376 seconds.
+  path: Assets/StylizedGrass/READMEdoc.txt
+  artifactKey: Guid(a97b2c8f615cfbb40beaec78bec1d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedGrass/READMEdoc.txt using Guid(a97b2c8f615cfbb40beaec78bec1d6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020cdca6b1b8cfbb73fcfe7f5be3ff64') in 0.041514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.437744 seconds.
+  path: Assets/StylizedGrass/VFX Graphs
+  artifactKey: Guid(f5fb332bc4728534d86e537879004eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedGrass/VFX Graphs using Guid(f5fb332bc4728534d86e537879004eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca74197df42ae6080c6cecc2eb92fbf') in 0.001706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.264658 seconds.
+  path: Assets/StylizedGrass/VFX Graphs/Grass
+  artifactKey: Guid(4b8dc4ed2e337084c9cf45b4ff45ef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedGrass/VFX Graphs/Grass using Guid(4b8dc4ed2e337084c9cf45b4ff45ef89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94baa2330fea34833f0c6b965d8b338') in 0.001816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057174 seconds.
+  path: Assets/StylizedGrass/VFX Graphs/Grass/quads-Circle.vfx
+  artifactKey: Guid(ed41155a8a6084448942d83abda503f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedGrass/VFX Graphs/Grass/quads-Circle.vfx using Guid(ed41155a8a6084448942d83abda503f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d366890d72c968aae65837150a24d4') in 0.006771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.204518 seconds.
+  path: Assets/StylizedGrass/Demo
+  artifactKey: Guid(e2c32406416ac4e41a37920a0d3dc6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedGrass/Demo using Guid(e2c32406416ac4e41a37920a0d3dc6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0214a046650a5450200b6ef1a6fcc78b') in 0.001832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023591 seconds.
+  path: Assets/StylizedGrass/Demo/Demo Post Process Settings.asset
+  artifactKey: Guid(b820f18c88d8da64c9a52f9c9591f9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedGrass/Demo/Demo Post Process Settings.asset using Guid(b820f18c88d8da64c9a52f9c9591f9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c74804f820bf5e85b065eff9a73dff') in 0.003894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.506897 seconds.
+  path: Assets/StylizedGrass/Demo/Demo - Grass.unity
+  artifactKey: Guid(5498c33960cb3c3419aa224279802a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedGrass/Demo/Demo - Grass.unity using Guid(5498c33960cb3c3419aa224279802a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3790808030b5cde38ae2420aa3269f6a') in 0.001846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.494520 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass3-1b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(86df8a4dfc560ab4cbd3155756655fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass3-1b3407d0e55802f81.terrainlayer using Guid(86df8a4dfc560ab4cbd3155756655fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5af44044c5958ec399174916118c25') in 0.066662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Road3-1b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(d723dba4d747f6c43ad7bfd229e99a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Road3-1b3407d0e55802f81.terrainlayer using Guid(d723dba4d747f6c43ad7bfd229e99a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b5b6a4f5c43ba9008d599ddde3b130') in 0.008264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.225094 seconds.
+  path: Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/Textures/Landscape/Grass3-3.png
+  artifactKey: Guid(78dca53b8e27ff94a81c3078a7a7b057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/Textures/Landscape/Grass3-3.png using Guid(78dca53b8e27ff94a81c3078a7a7b057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eab3dfa2fb5fb140fa08737c0ea7e8a') in 0.099687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.046907 seconds.
+  path: Assets/Prefab/Border.prefab
+  artifactKey: Guid(2c7f244cbcb6e6d4280b3a3c1d6d3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Border.prefab using Guid(2c7f244cbcb6e6d4280b3a3c1d6d3c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b251068e5b65bbe38ae2f5761adc7ef') in 0.050424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.142642 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6a1838c6ecca1c388cb8f73905f80') in 0.001861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.462670 seconds.
+  path: Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/Textures/Landscape/Grass3-2.png
+  artifactKey: Guid(c7a67d2f7119d7f4b91b3b64379cd04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/Textures/Landscape/Grass3-2.png using Guid(c7a67d2f7119d7f4b91b3b64379cd04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60e9bf7e94bb3ca693392098a6b8801') in 0.008913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.292565 seconds.
+  path: Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE
+  artifactKey: Guid(605a6b0b24c0a8245b8935c724e73656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE using Guid(605a6b0b24c0a8245b8935c724e73656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6754b1834a5cf1b22d3c75a4c2bb92d1') in 0.001914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.104641 seconds.
+  path: Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO
+  artifactKey: Guid(5cc3cd485f322314598b373aae497c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO using Guid(5cc3cd485f322314598b373aae497c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6e9566e75a6ef9be78518a302dc1e1') in 0.002250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067741 seconds.
+  path: Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO/Demo_terrain.asset
+  artifactKey: Guid(e8dfda675d4b6b045a1a927e19caffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkythianCat/Hand_Painted_Nature_Kit_LITE/DEMO/Demo_terrain.asset using Guid(e8dfda675d4b6b045a1a927e19caffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
+Received signal SIGSEGV
+Obtained 30 stack frames
+0x00007ff696c0bbf9 (Unity) CreateAssetToGUIDMappingV2
+0x00007ff696b9d56a (Unity) AssetDatabase::CreateAssetToGUIDMapping
+0x00007ff6960a002f (Unity) SplatDatabase::CreateTerrainLayerAsset
+0x00007ff69609e2f0 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00007ff69609abcc (Unity) SplatDatabase::AwakeFromLoad
+0x00007ff6960cc966 (Unity) TerrainData::AwakeFromLoad
+0x00007ff69591446f (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff695914edc (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff695915043 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff6958e7762 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff6958e81f0 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff6958ec142 (Unity) PersistentManager::ReadObject
+0x00007ff696b8e331 (Unity) WritePreviews
+0x00007ff696b86765 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff696bccade (Unity) ImportToObjects
+0x00007ff696bcba43 (Unity) ImportAsset
+0x00007ff696bee482 (Unity) AssetImportWorker::Import
+0x00007ff696c55364 (Unity) <lambda_61a9544df00a9e76ece93a9d8f6ff838>::operator()
+0x00007ff696c95e62 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff696c81d4e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff696c839b4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff696c9424e (Unity) IOService::Run
+0x00007ff696c66e5f (Unity) AssetImportWorkerClient::Run
+0x00007ff696c30f93 (Unity) RunAssetImportWorkerClientV2
+0x00007ff696c3101b (Unity) RunAssetImporterV2
+0x00007ff696451fe8 (Unity) Application::InitializeProject
+0x00007ff6968b21c8 (Unity) WinMain
+0x00007ff697c534be (Unity) __scrt_common_main_seh
+0x00007ffe3af27034 (KERNEL32) BaseThreadInitThunk
+0x00007ffe3b8e2651 (ntdll) RtlUserThreadStart
+
